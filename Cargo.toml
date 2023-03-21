@@ -1,0 +1,13 @@
+[package]
+name = "gpt-doc-gen"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-openai = "0.10.0"
+color-eyre = "0.6.2"
+quote = "1.0.26"
+structopt = "0.3.26"
+tokio = { version = "1.26.0", features = ["full"] }
